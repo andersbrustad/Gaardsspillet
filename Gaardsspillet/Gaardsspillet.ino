@@ -18,8 +18,6 @@ void printDetail(uint8_t type, int value);
 
 //div variabler
 int button = 2;
-int ledGreen = 3;
-int ledRed = 4;
 
 boolean riktigKort = false;
 int randomTall = 0;
@@ -217,9 +215,3 @@ void lesKortOgSpillAv(String cardId, int trackNum){
     }
   }
 }
-
-  
-
-
-
-
